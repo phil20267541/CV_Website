@@ -57,17 +57,18 @@ header{
 
 
 .content-box{
-  width: 60%;
+  width: 50%;
   border: black 1px solid;
   border-radius: 20px;
   justify-self: center;
   margin-bottom: 20px;
   padding: 10px;
+  background-color: #f5f5f5;
 }
 
 hr{
   margin-bottom: 20px;
-  width: 60%;
+  width: 50%;
   color: #d9d9d9;
   justify-self: center;
 }
@@ -83,4 +84,32 @@ hr{
 .content{
   width: 90%;
   justify-self: center;
+}
+
+.small-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.point{
+  margin-left: 50px;
+  list-style-type: square;
+  width: 90%;
+  justify-self: center;
+}
+
+.subpoint{
+  font-size: 15px;
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+.skills-box{
+  display: inline-block;
+  width: 49%;
+  list-style-type: square;
+}
+
+.skills-box:first-of-type{
+  border-right: black 1px solid;
 }
