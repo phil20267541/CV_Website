@@ -1,7 +1,9 @@
+
+
 const app = Vue.createApp({
   data() {
     return {
-      message: "Hello World!",
+      className1: "active"
     }
   }
 })

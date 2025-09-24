@@ -9,14 +9,51 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <main>
-    <header>   
-      <h1 id="title">Phillip Swann</h1>
-    </header>
-    <body>
+    <div id="app">
+      <header>   
+        <h1 id="title">Phillip Swann</h1>
+        <div id="navbar-container">
+          <ul id="navbar">
+            <li><a v-bind:class="className1" href="#personal-statement">Personal Statement</a></li>
+            <li><a v-bind:class="className2" href="#education">Education</a></li>
+            <li><a v-bind:class="className3" href="#work-experience">Work Experience</a></li>
+            <li><a v-bind:class="className4" href="#skills">Skills</a></li>
+            <li><a v-bind:class="className5" href="#hobbies">Hobbies</a></li>
+          </ul>
+        </div>
+      </header>
+      <body>
+        <div class="content-box" id="personal-statement">
+          <h2 class="subtitle">Personal Statement</h2>
+          <p class="content">I am an enthusiastic programming student studying software development,
+            specifically full-stack web development. I enjoy learning all sorts of areas in IT,
+            including programming, networking, and cybersecurity.
+            I regularly volunteer with Scouts UK and went with Berkshire scouts
+            to Malawi in Africa to do community work,
+            building a repertoire of transferable skills.</p>
+        </div>
+        <hr>
+        <div class="content-box" id="education">
+          <h2 class="subtitle">Education</h2>
+        </div>
+        <hr>
+        <div class="content-box" id="work-experience">
+          <h2 class="subtitle">Work Experience</h2>
+        </div>
+        <hr>
+        <div class="content-box" id="skills">
+          <h2 class="subtitle">Skills</h2>
+        </div>
+        <hr>
+        <div class="content-box" id="hobbies">
+          <h2 class="subtitle">Hobbies</h2>
+        </div>
+      </body>
+      <footer>
 
-    </body>
-    <footer>
-
-    </footer>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="active.js" async defer></script>
   </main>
 </html>
